@@ -1,0 +1,33 @@
+/* Global styles to ensure background colors render in production */
+
+:root {
+  --gmonad-purple: #a855f7;
+  --gmonad-accent: #22d3ee;
+  --gmonad-dark: #0f0518;
+  --gmonad-card: #1a1025;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: #fff;
+  background-color: var(--gmonad-dark);
+  background-image:
+    radial-gradient(1000px 400px at 50% 10%, rgba(168, 85, 247, 0.18), transparent 60%),
+    radial-gradient(800px 300px at 80% 75%, rgba(34, 211, 238, 0.14), transparent 60%);
+  background-attachment: fixed;
+}
+
+/* Simple glass effect helper used by the card wrapper */
+.glass {
+  backdrop-filter: blur(24px) saturate(120%);
+}
+
+/* Improve font rendering for the whole app */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
