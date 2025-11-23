@@ -219,7 +219,7 @@ function App() {
         <div className="mt-8 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/5 text-xs text-gray-400">
             <AlertCircle className="w-3 h-3" />
-            <span>Snapshot taken at Block 19284721</span>
+            <span>Created by @callmera</span>
           </div>
         </div>
 
